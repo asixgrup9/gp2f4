@@ -24,12 +24,21 @@
 			
 			$sub = new IPv4\SubnetCalculator($camp_ip, $camp_masc);
 		
-			$subxarxa = $sub->getSubnetMask();
-			echo"La màscara de subxarxa és $subxarxa<br>";
-		    echo"Rang de ips.<br>";
-			foreach ($sub->getAllHostIPAddresses() as $hostAddress) {
-				echo "$hostAddress<br>";
-			}
+			$network = $sub->getNetworkPortion();
+			echo "Xarxa: $network<br>";
+			$broadcastAddress = $sub->getBroadcastAddress();
+			echo "Adreça de broadcast de subxarxa: $broadcastAddress<br>";
+			$addressableHostRange = $sub->getAddressableHostRange();
+			echo "Marge de adreçes: $addressableHostRange[0] , $addressableHostRange[1]<br>";
+			
+			$numberHosts = $sub->getNumberAddressableHosts();
+			echo "Nombre de ips que pot donar: $numberHosts<br>";
+
+			
+			
+			
+			
+			
 		?>
 		<a href="ip.html">Torna a la pàgina anterior</a>
 	</body>	
