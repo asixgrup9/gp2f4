@@ -4,7 +4,7 @@
 </head>
 	<body>
 		<?php
-            require_once(__DIR__ . '/vendor/autoload.php');
+            require_once(__DIR__ . 'vendor/autoload.php');
 			#Obtenció del primer operand
 			if ($_GET["camp_ip"] =="") {
 				$camp_ip = "";
