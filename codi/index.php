@@ -9,10 +9,10 @@
 	<body>
                 <h2>Grup 09 del project de DevOps i Cloud Computing</h2>
 		<p><b>CALCUALDORA ARITMÈTICA</b></p>
-		<a href="suma.html">a) Suma de 2 operands</a>
-		<a href="resta.html">b) Resta de 2 operands</a>
-		<a href="multiplicacio.html">c) Multiplicació de 2 operands</a>
-		<a href="divisio.html">d)Divisió de 2 operands</a>
+		<a href="suma.html">a) Suma de 2 operands</a><br>
+		<a href="resta.html">b) Resta de 2 operands</a><br>
+		<a href="multiplicacio.html">c) Multiplicació de 2 operands</a><br>
+		<a href="divisio.html">d)Divisió de 2 operands</a><br>
 		<a href="ip.html">e)Calculadora subnet</a>
 	</body>
 <html>
